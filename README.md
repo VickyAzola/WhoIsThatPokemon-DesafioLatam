@@ -1,35 +1,66 @@
-# vue-project
+# Who Is That Pokemon App
 
-This template should help get you started developing with Vue 3 in Vite.
+## Tabla de Contenidos
 
-## Recommended IDE Setup
+- [Descripción](#descripción)
+- [Estructura del Proyecto](#estructura-del-proyecto)
+- [Tecnologías Utilizadas](#tecnologías-utilizadas)
+- [Instalación](#instalación)
+- [Autores](#autores)
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## Descripción
 
-## Customize configuration
+Who Is That Pokemon es una pagina que muestra 20 pokemones escondidos mediante un filtro. Se debe adivinar mediante su nombre cada uno, si la respuesta es correcta el filtro desaparece y el contador aumenta.
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+![preview](https://github.com/user-attachments/assets/e3291f88-3483-49f6-90f0-a7aac092cbb5)
 
-## Project Setup
 
-```sh
-npm install
-```
+## Estructura del Proyecto
 
-### Compile and Hot-Reload for Development
+El proyecto está dividido en los siguientes componentes:
 
-```sh
-npm run dev
-```
+1. **PokemonApp.vue**: Componente principal que gestiona la lista de pokemones y el contador.
+2. **PokemonCard.vue**: Componente que muestra la card con el pokemon y su formulario.
 
-### Compile and Minify for Production
+## Tecnologías Utilizadas
 
-```sh
-npm run build
-```
+- **HTML5**: Para la estructura del sitio web.
+- **CSS**: Para el diseño y la presentación del sitio web.
+- **Vue.js**: Framework de JavaScript para construir interfaces de usuario.
+- **Axios**: Librería para realizar solicitudes HTTP, utilizada para obtener los datos de los pokemones.
+- **API**: API pública [PokeApi](https://pokeapi.co/) para obtener 20 pokemones. 
 
-### Lint with [ESLint](https://eslint.org/)
+## Instalación
 
-```sh
-npm run lint
-```
+Sigue los siguientes pasos para instalar y ejecutar el proyecto en tu entorno local:
+
+1. Clona el repositorio:
+
+    ```bash
+    git clone https://github.com/usuario/WhoIsThatPokemon-DesafioLatam.git
+    ```
+
+2. Navega al directorio del proyecto:
+
+    ```bash
+    cd WhoIsThatPokemon-DesafioLatam
+    ```
+
+3. Instala las dependencias necesarias:
+
+    ```bash
+    npm install
+    ```
+
+4. Inicia el servidor de desarrollo:
+
+    ```bash
+    npm run dev
+    ```
+
+5.Abre el enlace 'Local' en tu navegador para ver la aplicación en funcionamiento.
+
+## Autores
+
+- **Desarrollador Principal**: [Victoria Azola Silva](https://github.com/VickyAzola) - Responsable del desarrollo del código.
+- **Diseñador**: [Desafío Latam](https://desafiolatam.com/admision/?utm_term=desafio%20latam&utm_campaign=Brand&utm_source=adwords&utm_medium=ppc&hsa_acc=1239562006&hsa_cam=16998643182&hsa_grp=136655824715&hsa_ad=596057942540&hsa_src=g&hsa_tgt=kwd-340546658839&hsa_kw=desafio%20latam&hsa_mt=b&hsa_net=adwords&hsa_ver=3&gad_source=1&gclid=CjwKCAjwvvmzBhA2EiwAtHVrbzEJGJPqUuTuFDuNIFtSh4eKqGXcLXmCO9u12vwlU553fGXV93Q5zxoCGmEQAvD_BwE) - Responsable del diseño gráfico y visual del proyecto.
