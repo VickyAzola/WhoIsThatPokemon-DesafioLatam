@@ -37,7 +37,7 @@ Sigue los siguientes pasos para instalar y ejecutar el proyecto en tu entorno lo
 1. Clona el repositorio:
 
     ```bash
-    git clone https://github.com/usuario/WhoIsThatPokemon-DesafioLatam.git
+    git clone https://github.com/VickyAzola/WhoIsThatPokemon-DesafioLatam.git
     ```
 
 2. Navega al directorio del proyecto:
