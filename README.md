@@ -12,6 +12,8 @@
 
 Who Is That Pokemon es una pagina que muestra 20 pokemones escondidos mediante un filtro. Se debe adivinar mediante su nombre cada uno, si la respuesta es correcta el filtro desaparece y el contador aumenta.
 
+[Revisa la página aquí](https://whoisthatpokemon-desafiolatam.netlify.app/)
+
 ![preview](https://github.com/user-attachments/assets/e3291f88-3483-49f6-90f0-a7aac092cbb5)
 
 
